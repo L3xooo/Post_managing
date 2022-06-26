@@ -4,13 +4,14 @@ Stranka umoznuje vytvorit, upravit, vymazat, najst prispevok.
 
 Obsah
 -----
-env
+
 post_manage
 READ ME
 
 Instalacia
 ----------
-Spustit virtualenv vo folderi env 
+Vytvorit virtual env a nasledne aktivovat
+virtualenv env
 ./env/scripts/activate
 
 Nainstalovat django a requests
