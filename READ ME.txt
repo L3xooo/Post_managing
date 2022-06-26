@@ -1,0 +1,26 @@
+Post_managing
+-------------
+Stranka umoznuje vytvorit, upravit, vymazat, najst prispevok.
+
+Obsah
+-----
+env
+post_manage
+READ ME
+
+Instalacia
+----------
+Spustit virtualenv vo folderi env 
+./env/scripts/activate
+
+Nainstalovat django a requests
+pip install django
+pip install requests
+
+Potom sa presunut do post_manage folderu post_manage a spustit manage.py
+
+cd post_manage
+
+python manage.py runserver
+
+Po spusteni servera otvorit link http://127.0.0.1:8000/ 
